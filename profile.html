@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I chat - To chat your friend's or your mother</title>
+    <link rel="stylesheet" href="ichat-style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-left">
+        <a href="index.html"><img src="../MyProjects/Images/logo.png" class="logo" /></a>
+        <ul>
+          <li><a href="notifikasi.html"><img src="../MyProjects/Images/notification.png" /></a></li>
+          <li><img src="../MyProjects/Images/inbox.png" /></li>
+          <li><img src="../MyProjects/Images/video.png" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="../MyProjects/Images/search.png" />
+          <input type="text" id="search" placeholder="search yout problem" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingMenuToggle()">
+          <img src="../MyProjects/Images/profile-pic.png" />
+        </div>
+      </div>
+<!-- setinggg menu -->
+      <div class="setting-menu">
+
+        <div id="dark-click">
+          <span></span>
+        </div>
+
+        <div class="seting-menu-in">
+          <div class="user-profile">
+            <a href="profile.html"><img src="../MyProjects/Images/profile-pic.png" /></a>
+            <div>
+              <p>Bayu Ferdianto</p>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr/>
+          <div class="user-profile">
+            <img src="../MyProjects/Images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to my chat</a>
+            </div>
+          </div>
+          <hr/>
+          <div class="seting-link">
+            <img src="../MyProjects/Images/setting.png" class="seting-link-icon">
+            <a href="#">Settings & Privacy <img src="../MyProjects/Images/arrow.png" width="10px" id="arrow"> </a>
+          </div>
+          <div class="seting-link1">
+            <img src="../MyProjects/Images/help.png" class="seting-link-icon">
+            <a href="#">Help & Support<img src="../MyProjects/Images/arrow.png" width="10px" id="arrow"> </a>
+          </div>
+          <div class="seting-link2">
+            <img src="../MyProjects/Images/display.png" class="seting-link-icon">
+            <a href="#">Accesbility <img src="../MyProjects/Images/arrow.png" width="10px" id="arrow"> </a>
+          </div>
+          <div class="seting-link3">
+            <img src="../MyProjects/Images/logout.png" class="seting-link-icon">
+            <a href="#">Logout<img src="../MyProjects/Images/arrow.png" width="10px" id="arrow"> </a>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+    <!-- ----------profile-page--------- -->
+
+    <div class="profile-container">
+      <img src="../MyProjects/Images/cover.png" class="cover-img">
+      <div class="profile-details">
+        <div class="profile-left">
+          <div class="pd-left">
+            <div class="pd-row">
+              <img src="../MyProjects/Images/profile.png" class="pd-image">
+              <div>
+                <h3>Bayu Ferdianto</h3>
+                <p>130 friends - 10 family</p>
+                <img src="../MyProjects/Images/member-1.png">
+                <img src="../MyProjects/Images/member-2.png">
+                <img src="../MyProjects/Images/member-6.png">
+                <img src="../MyProjects/Images/member-5.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pd-right">
+          <button type="button"> <img src="../MyProjects/Images/add-friends.png">Friends</button>
+          <button type="button"> <img src="../MyProjects/Images/message.png"> Message</button>
+          <br/>
+          <a href=""> <img src="../MyProjects/Images/more.png"></a>
+        </div>
+      </div>
+      <div class="profile-info">
+
+
+        <div class="info-columns">
+
+          <div class="profile-intro">
+            <h3>Introducing</h3>
+            <p>I believe my self will create a change in the world. So I will create something that no one has ever created before. <img src="images/feeling.png" width="15px" style="margin-bottom: -3px;"></p>
+            <hr>
+            <ul>
+              <li><img src="../MyProjects/Images/profile-job.png"> Pernah Bekerja di PT.Cinta Abadi</li>
+              <li><img src="../MyProjects/Images/profile-study.png"> Studied at SMKN 1 BULUKERTO</li>
+              <li><img src="../MyProjects/Images/profile-location.png"> Lives in Wonogiri, Jawa Tengah, Indonesia</li>
+              <li><img src="../MyProjects/Images/profile-home.png"> From Puhpelem</li>
+            </ul>
+          </div>
+
+          <div class="profile-intro">
+            <div class="photo-title">
+              <h3>Photos</h3>
+              <a href="#">All Photos</a>
+            </div>
+            <div class="photo-box">
+              <div><img src="../MyProjects/Images/photo1.png"></div>
+              <div><img src="../MyProjects/Images/photo6.png"></div>
+              <div><img src="../MyProjects/Images/photo2.png"></div>
+              <div><img src="../MyProjects/Images/photo3.png"></div>
+              <div><img src="../MyProjects/Images/photo4.png"></div>
+              <div><img src="../MyProjects/Images/photo5.png"></div>
+            </div>
+          </div>
+          <div class="profile-intro">
+            <div class="photo-title">
+              <h3>Friends</h3>
+              <a href="#">All Friends</a>
+            </div>
+            <p>12k Friends Follow</p>
+            <div class="friends-box">
+              <div><img src="../MyProjects/Images/member-1.png"><p>Ferdianto</p></div>
+              <div><img src="../MyProjects/Images/member-6.png"><p>Maulana</p></div>
+              <div><img src="../MyProjects/Images/member-9.png"><p>Firmansyah</p></div>
+              <div><img src="../MyProjects/Images/member-5.png"><p>Helga Putra</p></div>
+              <div><img src="../MyProjects/Images/member-3.png"><p>J Vianson</p></div>
+              <div><img src="../MyProjects/Images/member-7.png"><p>Fiesta</p></div>
+              <div><img src="../MyProjects/Images/member-8.png"><p>Riyanto solo</p></div>
+              <div><img src="../MyProjects/Images/member-2.png"><p>Parenkechil.jr</p></div>
+              <div><img src="../MyProjects/Images/member-4.png"><p>Pratama</p></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- =====post-column============== -->
+        <div class="post-columns">
+          <div class="write-post-container">
+            <div class="user-profile">
+              <a href="profile.html"><img src="../MyProjects/Images/profile-pic.png" /></a>
+              <div>
+                <p>Bayu Ferdianto</p>
+                <small
+                  >public<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="svg-inline--fa fa-caret-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>              </small>
+              </div>
+            </div>
+            <div class="post-input-container">
+              <textarea rows="3" placeholder="input your post"></textarea>
+              <div class="post">
+                <a href=""><img src="../MyProjects/Images/live-video.png" />Live Video</a>
+                <a href=""><img src="../MyProjects/Images/photo.png" />Photo/Video</a>
+                <a href=""><img src="../MyProjects/Images/feeling.png" />Feeling Activity</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="../MyProjects/Images/profile-pic.png" />
+                <div>
+                  <p>Bayu Ferdianto</p>
+                  <span>June 24 2021, 13:40 pm</span>
+                </div>
+              </div>
+              <!-- -----------none connect -->
+              <p><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"> <path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg> .</p>
+            </div>
+            <p class="post-text">Hiii gaes I'm is a web <span>development</span>.I can see this week I'm also raeding to my freind's get something error for php. to answer to me cek my website. <a href="#">#Informan.com</a></p>
+            <img src="../MyProjects/Images/feed-image-1.png" class="post-img" />
+  
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="../MyProjects/Images/like-blue.png" /> 120</div>
+                <div><img src="../MyProjects/Images/comments.png" /> 45</div>
+                <div><img src="../MyProjects/Images/share.png" /> 120</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="../MyProjects/Images/profile-pic.png" />
+              </div>
+            </div>
+          </div>
+          <!-- -----post 2------------ -->
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="../MyProjects/Images/member-2.png" />
+                <div>
+                  <p>Paren</p>
+                  <span>June 26 2021, 20:40 pm</span>
+                </div>
+              </div>
+              <!-- -----------none connect -->
+              <p><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"> <path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg> .</p>
+            </div>
+            <p class="post-text">I get someothing for life this my family.love it my family<a href="#">#family-is-the-best</a></p>
+            <img src="../MyProjects/Images/feed-image-2.png" class="post-img" />
+  
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="../MyProjects/Images/like.png" /> 120</div>
+                <div><img src="../MyProjects/Images/comments.png" /> 45</div>
+                <div><img src="../MyProjects/Images/share.png" /> 120</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="../MyProjects/Images/member-2.png" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button type="button" class="btn">Load More</button>
+    </div>
+    <footer class="footer">
+      <p>All reserved 2021 - Ichat</p>
+      <small>Beta version 0.1</small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

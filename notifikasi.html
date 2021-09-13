@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I chat - To chat your friend's or your mother</title>
+    <link rel="stylesheet" href="ichat-style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-left">
+        <a href="index.html"><img src="../MyProjects/Images/logo.png" class="logo" /></a>
+        <ul>
+          <li><a href="notifikasi.html"><img src="../MyProjects/Images/notification.png" /></a></li>
+          <li><img src="../MyProjects/Images/inbox.png" /></li>
+          <li><img src="../MyProjects/Images/video.png" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="../MyProjects/Images/search.png" />
+          <input type="text" id="search" placeholder="search yout problem" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingMenuToggle()">
+          <img src="../MyProjects/Images/profile-pic.png" />
+        </div>
+      </div>
+<!-- setinggg menu -->
+      <div class="setting-menu">
+        <div id="dark-click">
+          <span></span>
+        </div>
+
+        <div class="seting-menu-in">
+          <div class="user-profile">
+            <a href="profile.html"><img src="../MyProjects/Images/profile-pic.png" /></a>
+            <div>
+              <p>Bayu Ferdianto</p>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr/>
+          <div class="user-profile">
+            <img src="../MyProjects/Images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to my chat</a>
+            </div>
+          </div>
+          <hr/>
+          <div class="seting-link">
+            <img src="../MyProjects/Images/setting.png" class="seting-link-icon">
+            <a href="#">Settings & Privacy <img src="../MyProjects/Images/arrow.png" width="10px" id="arrow"> </a>
+          </div>
+          <div class="seting-link1">
+            <img src="../MyProjects/Images/help.png" class="seting-link-icon">
+            <a href="#">Help & Support<img src="../MyProjects/Images/arrow.png" width="10px" id="arrow"> </a>
+          </div>
+          <div class="seting-link2">
+            <img src="../MyProjects/Images/display.png" class="seting-link-icon">
+            <a href="#">Accesbility <img src="../MyProjects/Images/arrow.png" width="10px" id="arrow"> </a>
+          </div>
+          <div class="seting-link3">
+            <img src="../MyProjects/Images/logout.png" class="seting-link-icon">
+            <a href="#">Logout<img src="../MyProjects/Images/arrow.png" width="10px" id="arrow"> </a>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+    <div class="hero">
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="../MyProjects/Images/news.png" />Latest News</a>
+          <a href="#"><img src="../MyProjects/Images/friends.png" />Friends</a>
+          <a href="#"><img src="../MyProjects/Images/group.png" /> Grup</a>
+          <a href="#"><img src="../MyProjects/Images/marketplace.png" />marketplace</a>
+          <a href="#"><img src="../MyProjects/Images/watch.png" />Wacth</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shorcut-links">
+          <p>Your Shorcuts</p>
+          <a href="#"><img src="../MyProjects/Images/shortcut-1.png" />Web Developers</a>
+          <a href="#"><img src="../MyProjects/Images/shortcut-2.png" />Web Design</a>
+          <a href="#"><img src="../MyProjects/Images/shortcut-3.png" />Full Stack Developments</a>
+          <a href="#"><img src="../MyProjects/Images/shortcut-4.png" />Website Experts</a>
+        </div>
+      </div>
+      <!-- ------------MAIN CONTENT---------------- -->
+      <div class="main-content">
+        <div class="header-notif">
+            <h4>Notification</h4>
+            <div>
+                <img src="../MyProjects/Images/search.png" width="25px">
+            </div>
+        </div>
+        <div class="notif-alert">
+            <div class="notif-function">
+                <p>Mark All Read</p>
+            </div>
+        </div>
+        <div class="header-notif1">
+            <h3>News</h3>
+            <hr>
+            <div class="notif-text1">
+                <img src="../MyProjects/Images/profile-pic.png" width="45px">
+                <p><b>Bayu Ferdianto</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                <small>25 hours ago</small>
+            </div>
+            <hr>
+            <div class="notif-text1">
+                <img src="../MyProjects/Images/marketplace.png" width="45px" style="background-color: #efefef;">
+                <p><span>40+ items</span> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                <small>4 hours ago</small>
+            </div>
+            <hr>
+            <div class="header-notif1">
+                <h3>Read</h3>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-9.png" width="45px">
+                    <p><b>Fajar Maulana</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>25 August 2021 07.21 pm</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-1.png" width="45px">
+                    <p><b>Hiday Madrasah</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>45 days ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-2.png" width="45px">
+                    <p><b>Paren kechil.jr</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>25 hours ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-3.png" width="45px">
+                    <p><b>Denny</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>21 June 2021</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-4.png" width="45px">
+                    <p><b>Jambar</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>35 hours ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-5.png" width="45px">
+                    <p><b>Nicholl</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>3 days ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-6.png" width="45px">
+                    <p><b>Dina</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>5 days ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-7.png" width="45px">
+                    <p><b>Galih</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>5 hours ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-8.png" width="45px">
+                    <p><b>Hiksam</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>22 August 2021 04.21</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-9.png" width="45px">
+                    <p><b>Iwal</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>2 hours ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-4.png" width="45px">
+                    <p><b>Spare</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>11 days ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-1.png" width="45px">
+                    <p><b>Siska Kohl</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>2 days ago</small>
+                </div>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-6.png" width="45px">
+                    <p><b>August</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>21 August 2021 05.32</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-3.png" width="45px">
+                    <p><b>Social</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>5 hours ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-2.png" width="45px">
+                    <p><b>FingerDays</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>1 days ago</small>
+                </div>
+                <hr>
+                <div class="notif-text">
+                    <img src="../MyProjects/Images/member-1.png" width="45px">
+                    <p><b>40+ items</b> just added to buy and sell group <b>FORUM JUAL BELI INDONESIA - FJBI</b></p>
+                    <small>10 hours ago</small>
+                </div>
+            </div>
+        </div>
+      </div>
+        <!-- -----------right sidebar----------------- -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p>
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                  fill="currentColor"
+                  d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                ></path></svg>
+              Wonogiri puhpelem
+            </p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>June</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobile Marketing</h4>
+            <p>
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                  fill="currentColor"
+                  d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                ></path></svg>
+              Wonogiri puhpelem
+            </p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="../MyProjects/Images/advertisement.png" class="sidebar-ads" />
+
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="../MyProjects/Images/member-1.png" />
+          </div>
+          <p>Bayu Ferdianto</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="../MyProjects/Images/member-2.png" />
+          </div>
+          <p>Fajar Maulana</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="../MyProjects/Images/member-3.png" />
+          </div>
+          <p>Paren</p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>All reserved 2021 - Ichat</p>
+      <small>Beta version 0.1</small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
